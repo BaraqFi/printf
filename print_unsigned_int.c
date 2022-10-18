@@ -41,7 +41,7 @@ int print_u(va_list u)
 int print_o(va_list o)
 {
 	unsigned int a[11];
-	unsigned int i, m, n, sum;int count;
+	unsigned int i, m, n, sum;
 	int count;
 
 	n = va_arg(o, unsigned int);
@@ -70,7 +70,7 @@ int print_o(va_list o)
  *
  * Return: number of digits printed
  */
-cint print_b(va_list b)
+int print_b(va_list b)
 {
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
